@@ -1,0 +1,127 @@
+[
+    {
+        "keywords": [
+            "Hola",
+            "hola",
+            "HOLA",
+            "Hola.",
+            "hola.",
+            "HOLA.",
+            "Buenos días",
+            "Buenos dias",
+            "Buenos Días",
+            "buenos días",
+            "buenos Días",
+            "buenos Dias",
+            "BUENOS DIAS",
+            "BUENOS DÍAS",
+            "Buenas tardes",
+            "Buenas tardes",
+            "Buenas Tardes",
+            "buenas tardes",
+            "buenas Días",
+            "buenas Tardes",
+            "BUENAS TARDES",
+            "Información",
+            "informacion",
+            "Buenas"
+        ],
+        "key": ["SALUDO"]
+    },
+    {
+        "keywords": [
+            "Ayuda",
+            "ayuda",
+            "Ayuda.",
+            "ayuda.",
+            "ayuds",
+            "Ayuds",
+            "ayuds.",
+            "Ayuds.",
+            "AYUDA"
+        ],
+        "key": ["BIENVENIDA"]
+    },
+    {
+        "keywords": [
+            "A", "a", "a.", "A."
+        ],
+        "key": "PEDIDO"
+    },
+    {
+        "keywords": [
+            "B", "B.", "b", "b."
+        ],
+        "key": ["CAMBIOSGUIARETORNO"]
+    }, {
+        "keywords": [
+            "C", "c", "C.", "c."
+        ],
+        "key": ["QUIEROVERLOSCATALOGOS"]
+    }, {
+        "keywords": [
+            "4", "4."
+        ],
+        "key": ["CXSPORT"]
+    }, {
+        "keywords": [
+            "5", "5."
+        ],
+        "key": ["MIANGEL"]
+    }, {
+        "keywords": [
+            "G", "G.", "g", "g."
+        ],
+        "key": ["C3ACATALOGOENVENTA"]
+    }, {
+        "keywords": [
+            "H", "H.", "h", "h."
+        ],
+        "key": ["C3BCATALOGOPREVENTA"]
+    }, {
+        "keywords": [
+            "I", "I.", "i", "i."
+        ],
+        "key": ["C3CPREMIOSACUMULABLES"]
+    }, {
+        "keywords": [
+            "6", "6."
+        ],
+        "key": ["EQUILIBRIO"]
+    }, {
+        "keywords": [
+            "7", "7."
+        ],
+        "key": ["MCJ"]
+    }, {
+        "keywords": [
+            "D", "d", "D.", "d."
+        ],
+        "key": ["INSCRIPCIONGRATIS"]
+    }, {
+        "keywords": [
+            "E", "e", "E.", "e."
+        ],
+        "key": ["PAGOS"]
+    }, {
+        "keywords": [
+            "F", "f", "F.", "f."
+        ],
+        "key": ["VERCOMPRAROFERTAS"]
+    }, {
+        "keywords": [
+            "Gracias",
+            "gracias",
+            "GRACIAS",
+            "Gracias.",
+            "gracias.",
+            "GRACIAS.",
+            "Chao",
+            "chao",
+            "Adios",
+            "Hasta luego",
+            "Hasta Luego"
+        ],
+        "key": ["DESPEDIDA"]
+    }
+]
