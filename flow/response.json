@@ -24,7 +24,7 @@
         "replyMessage": [
             "ESCOJA LAS MARCAS QUE DESEE PARA ENVIARLE LA INFORMACIÓN + EL CATÁLOGO \n\n",
             "*4. CX* MODA DEPORTIVA Y CASUAL *30%* \n",
-            "*5. MI ANGEL* MODA CASUAL + TALLAS PLUS *30% - 35%*\n",
+            "*5. MI ANGEL* MODA CASUAL + TALLAS PLUS *30% - 37%*\n",
             "*6. EQUILIBRIO* CALZADO *30%* \n",
             "*7. MCJ* HOGAR *30%*"
         ]
@@ -164,7 +164,7 @@
         ]
     },
     "PAGOS": {
-        "replyMessage": ["Con gusto envianos tu comprobante del depósito o  transferencia ANTES QUE SE ELIMINE TU PEDIDO 🧐\n", "Recuerda tu pedido te llega entre 24h a 48h siempre y cuando nos reportes tu pago hasta el *MEDIODÍA*"]
+        "replyMessage": ["Con gusto envianos tu comprobante del depósito o  transferencia ANTES QUE SE ELIMINE TU PEDIDO 🧐\n", "Recuerda tu pedido te llega entre 24h a 48h siempre y cuando nos reportes tu pago del *MEDIODÍA*"]
     },
     "VERCOMPRAROFERTAS": {
         "replyMessage": [
