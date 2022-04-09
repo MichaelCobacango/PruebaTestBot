@@ -1,0 +1,29 @@
+{
+    "name": "",
+    "description": "",
+    "repository": "",
+    "logo": "",
+    "keywords": [
+        "nodejs", "whatsapp", "bot", "chatbot"
+    ],
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }, {
+            "url": ""
+        }
+    ],
+    "env": {
+        "SAVE_MEDIA": "false",
+        "DATABASE": {
+            "description": "",
+            "value": "none"
+        },
+        "LANGUAGE": "es",
+        "SQL_HOST": "your_host",
+        "SQL_USER": "your_user",
+        "SQL_PASS": "your_password",
+        "SQL_DATABASE": "your_database"
+    }
+}
