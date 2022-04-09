@@ -8,7 +8,7 @@ const DELAY_TIME = 170; //ms
 const DIR_MEDIA = `${__dirname}/../mediaSend`;
 // import { Low, JSONFile } from 'lowdb'
 // import { join } from 'path'
-const { saveMessage } = require('../adapter')
+const { saveMessage } = require('../adapter/app')
 /**
  * Enviamos archivos multimedia a nuestro cliente
  * @param {*} number 

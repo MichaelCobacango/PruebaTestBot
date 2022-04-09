@@ -1,4 +1,4 @@
-const {get, reply, getIA} = require('../adapter')
+const {get, reply, getIA} = require('../adapter/app')
 const {saveExternalFile, checkIsUrl} = require('./handle')
 
 const getMessages = async (message) => {
