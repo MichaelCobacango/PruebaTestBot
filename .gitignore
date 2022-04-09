@@ -2,7 +2,6 @@
 /node_modules/*
 session.json
 chats/*
-!chats/.gitkeep
 media/*
 !media/.gitkeep
 !mediaSend/.gitkeep
