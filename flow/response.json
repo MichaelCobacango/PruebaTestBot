@@ -1,0 +1,200 @@
+{
+  "SALUDO": {
+    "replyMessage": [
+      "Ey Bienvenid@ es un placer tenerte por aquí, escribe la palabra *AYUDA* para tener una atención *INMEDIATA*"
+    ]
+  },
+  "BIENVENIDA": {
+    "replyMessage": [
+      "🎊 ¡Bienvenid@ a *MODA EN CATÁLOGOS VALE*! tu negocio On Line🎊\n",
+      "Por favor ELIGE LA OPCIÓN QUE NECESITAS para tu atención: 👇\n\n",
+      "A. Pedidos.\n",
+      "B. Cambios\n",
+      "C. Envíeme los catálogos + INFORMACIÓN Y PREMIOS.\n",
+      "D. Inscripción *Gratis*.\n",
+      "E. Pagos. \n",
+      "F. Ver y Comprar las *Ofertas*"
+    ]
+  },
+  "PEDIDO": {
+    "replyMessage": [
+      "Por favor ayudeme con los códigos y la respectiva marca.\n",
+      "Y en unos minutos le enviamos su valor a pagar.\n",
+      "EL DESPACHO ES INMEDIATO UNA VEZ DEPOSITADO LE LLEGA SU PEDIDO x SERVIENTREGA ENTRE 24h Y 48h"
+    ]
+  },
+  "CAMBIOSGUIARETORNO": {
+    "replyMessage": [
+      "Por favor ayúdeme de que marca deseas realizar el cambio: \n\n",
+      "1. Cx Sport \n",
+      "2. Mi Ángel \n",
+      "3. Equilibrio"
+    ]
+  },
+  "QUIEROVERLOSCATALOGOS": {
+    "replyMessage": [
+      "ESCOJA LAS MARCAS QUE DESEE PARA ENVIARLE LA INFORMACIÓN + EL CATÁLOGO \n\n",
+      "*4. CX* MODA DEPORTIVA Y CASUAL *30%* \n",
+      "*5. MI ANGEL* MODA CASUAL + TALLAS PLUS *30% - 37%*\n",
+      "*6. EQUILIBRIO* CALZADO *30%* \n",
+      "*7. MCJ* HOGAR *30%*"
+    ]
+  },
+  "CXSPORT": {
+    "replyMessage": [
+      "*BIENVENID@ CXSPORTS 25 AÑOS EN EL MERCADO*\n",
+      "Tiene el *30% de Ganancias + Premios*\n",
+      "Envíos *INMEDIATOS* a Ecuador mediante Servientrega, digitamos tus pedidos todos los días.\n\n",
+      "📍 PEDIDO mínimo de 2 Prendas \n",
+      "📌 *NEGOCIO DE CONTADO* pedido cancelado, pedido enviado.\n",
+      "📌 Entrega de 24 a 48 horas laborables una vez depositado.\n",
+      "📌 PASE pronto su pedido hay una Alta Demanda y se agotan las prendas.\n",
+      "📌 La vigencia del catálogo es de *1 mes*\n",
+      "📌 Somos únicos con Planta de Producción.\n\n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n",
+      "VER CATÁLOGO 👇👇\n"
+    ],
+    "media": "../media/CX-SPORT/1.jpeg",
+    "media1": "../media/CX-SPORT/2.jpeg",
+    "media2": "../media/CX-SPORT/3.jpeg",
+    "media3": "../media/CX-SPORT/4.jpeg",
+    "media4": "../media/CX-SPORT/CX55-NF61.pdf"
+  },
+  "MIANGEL": {
+    "replyMessage": [
+      "ESCOJA LA OPCIÓN QUE DESEA INFORMACIÓN.\n\n",
+      "G. Catálogo del mes en curso venta actual.\n",
+      "H. Catálogo del mes siguiente reserva tu preventa.\n",
+      "I. Plan de Premios Acumulables Abril, Mayo y Junio."
+    ]
+  },
+  "C3ACATALOGOENVENTA": {
+    "replyMessage": [
+      "📌 *Tienes el 30% de descuento* en el catálogo actual del mes ABRIL. \n",
+      "📌 *PASE su pedido* y le damos su valor a cancelar.\n",
+      "📌 *Una vez depositado llega en 48h por Servientrega EN LA VENTA*.\n",
+      "📌 Pedido IDEAL 5 prendas + premio + *ENVÍO GRATIS*.\n",
+      "📌 Digitamos tus pedidos todos los días.\n",
+      "📌 *NEGOCIO DE CONTADO* pedido cancelado, pedido enviado.\n\n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n",
+      "VER CATÁLOGO 👇👇\n"
+    ],
+    "media": ["../media/MiAngel/Actual/MAabril2022.pdf"]
+  },
+  "C3BCATALOGOPREVENTA": {
+    "replyMessage": [
+      "📌 *Comienza el despacho el 26 de Abril con el Siguiente DESCUENTO*\n",
+      "📌 *En Preventa:*\n",
+      "📌 35% *Del 2 al 13 de Abril*\n",
+      "📌 32% *De Ganancia del 14 al 25 de Abril*\n",
+      "📌 Despacho del *26 de Abril* es el catálogo del *Siguiente mes MAYO*\n",
+      "📌 Pedido IDEAL 5 prendas + premio + *ENVÍO GRATIS*.\n",
+      "📌 Envíos a Ecuador mediante Servientrega, digitamos tus pedidos todos los días.\n",
+      "📌 *NEGOCIO DE CONTADO* pedido cancelado, pedido enviado.\n",
+      "📌 Hay una Alta Demanda y se agotan las prendas.\n",
+      "📌 La vigencia del catálogo es de 1 mes *VENTA* y 1 mes en *PREVENTA*\n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n",
+      "VER CATÁLOGO 👇👇\n"
+    ],
+    "media": ["../media/MiAngel/Preventa/MAMAYO2022.pdf"]
+  },
+  "C3CPREMIOSACUMULABLES": {
+    "replyMessage": [
+      "*Plan de Fidelidad x 3 Campañas* 🎁 \n",
+      "*Desde C-4 Abril*\n",
+      "*Acumula tus compras x 3 Campañas Seguidas* en campaña C-4, C-5, C-6\n",
+      "Mayo, Junio y Julio\n",
+      "📌 *Nivel Oro: 25 prendas incluye 1 pedido ideal.*\n",
+      "*GANA: Olla Arrocera + Sanduchera + Juego de Cuchillos.* \n",
+      "CANJEA en C-7 con un pedido ideal. \n",
+      "📌 *Nivel Plata: 18 prendas incluye 1 pedido ideal.*\n",
+      "*GANA: Olla Arrocera + Sanduchera.* \n",
+      "CANJEA en C-7 con un pedido ideal.\n",
+      "📌 *Nivel Bronce: 10 prendas incluye 1 pedido ideal.*\n",
+      "*GANA: Olla Arrocera.* \n",
+      "CANJEA en C-7 con un pedido ideal.\n\n",
+      "No puedes bajar de categorización.\n",
+      "*IMPORTANTE* Debes completar tu meta deseada Abril, Mayo y Junio.\n\n",
+      "🎉Éxitos y a ganar se ha dicho🎉\n\n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n"
+    ],
+    "media": ["../media/MiAngel/Premios/1.jpeg"]
+  },
+  "EQUILIBRIO": {
+    "replyMessage": [
+      "*Bienvenid@ Ventas x Catálogo EQUILIBRIO* 📲 \n",
+      "*Calzado Deportivo y Casual* 🤩\n",
+      "📌 Pedido mínimo 2 PARES. \n",
+      "✅ *Ganancia 30% + Planes de Premios.*\n",
+      "📌 Envíos a Ecuador mediante Servientrega, digitamos tus pedidos todos los días.\n",
+      "📌*NEGOCIO DE CONTADO* pedido cancelado, pedido enviado.\n",
+      "📌 Entrega de 24 a 48 horas laborables VENTA\n",
+      "📌 *En Preventa* despacho el 13 de Abril. \n",
+      "📌 Hay una Alta Demanda y se agotan.\n",
+      "📌👀 *Vigencia 2 Meses* 👇👇 \n",
+      "👟🥾 *Aprovecha para pasa pronto tu pedido.* 🙋🏻‍♀️🧏🏻‍♀️ \n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n",
+      "VER CATÁLOGO 👇👇\n"
+    ],
+    "media": "../media/Equilibrio/1EQ.jpeg",
+    "media1": "../media/Equilibrio/c-2EQ2022.2.pdf"
+  },
+  "MCJ": {
+    "replyMessage": [
+      "*Bienvenid@ Ventas x Catálogo MCJ* 📲 \n",
+      "*Artículos Para El Hogar Y Calzado* 🤩\n",
+      "📌 Pedido mínimo $30 dólares Precio Factura. \n",
+      "✅ *Ganancia 30%.*\n",
+      "📌 Envíos a Ecuador mediante Servientrega, digitamos tus pedidos todos los días.\n",
+      "📌*NEGOCIO DE CONTADO* pedido cancelado, pedido enviado.\n",
+      "📌 Entrega de 24 a 48 horas laborables.\n",
+      "📌 Hay una Alta Demanda y se agotan.\n",
+      "📌👀 *Vigencia 2 Meses* 👇👇 \n",
+      "👟🥾 *Aprovecha para pasa pronto tu pedido.* 🙋🏻‍♀️🧏🏻‍♀️ \n",
+      "*IMPORTANTE*\n",
+      "📌 Agregue este # a su agenda en este *MOMENTO* que le llegue a tiempo la información.\n\n",
+      "VER CATÁLOGO 👇👇\n"
+    ],
+    "media": ["../media/MCJ/C3_2022_MCJ.pdf"]
+  },
+  "INSCRIPCIONGRATIS": {
+    "replyMessage": [
+      "Con gusto nos envía sus datos para registrarle y darle la información enseguida comienza sus ventas x Catálogo.\n",
+      "Nombres Completos\n",
+      "N. Cédula\n",
+      "Correo\n",
+      "WhatsApp \n",
+      "Dirección: \n",
+      "- Provincia\n",
+      "- Cantón\n",
+      "- Parroquia\n",
+      "- Barrio\n",
+      "- Calles N. De Casa\n",
+      "- Color y número de pisos\n",
+      "- Alguna referencia."
+    ]
+  },
+  "PAGOS": {
+    "replyMessage": [
+      "Con gusto envianos tu comprobante del depósito o  transferencia ANTES QUE SE ELIMINE TU PEDIDO 🧐\n",
+      "Recuerda tu pedido te llega entre 24h a 48h siempre y cuando nos reportes tu pago del *MEDIODÍA*"
+    ]
+  },
+  "VERCOMPRAROFERTAS": {
+    "replyMessage": [
+      "Con mucho gusto puede revisar las ofertas con 50 y 70% de descuento.\n",
+      "Estos precios ya son netos y no tienen + descuentos.\n",
+      "*Nota:* En caso que no se le cargue el link, puede probar en otro dispositivo (Celular).\n\n",
+      "Este link se actualiza con mercadería nueva *Cada 15 días* clic aquí 👇👇 \n",
+      "https://wa10x.me/cxsports/593979200839"
+    ]
+  },
+  "DESPEDIDA": {
+    "replyMessage": ["Es un placer ayudarte, te esperamos pronto."]
+  }
+}
