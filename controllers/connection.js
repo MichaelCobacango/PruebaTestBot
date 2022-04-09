@@ -1,16 +1,13 @@
-const connectionReady = (cb = () => {}) => {
-    console.log('Ready to listen to messages')
+const connectionReady = (cb = () =>{}) => {
+    console.log('Listo para escuchas mensajes')
     console.log('Client is ready!');
     cb()
 }
 
-const connectionLost = (cb = () => {}) => {
-    console.log('** Authentication error generates the QRCODE again (Delete the session.json file) **');
+const connectionLost = (cb = () =>{}) => {
+    console.log('** Error de autentificacion vuelve a generar el QRCODE (Borrar el archivo session.json) **');
     cb()
 }
 
 
-module.exports = {
-    connectionReady,
-    connectionLost
-}
+module.exports = {connectionReady, connectionLost}

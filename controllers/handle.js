@@ -1,4 +1,4 @@
-const {Client, LegacySessionAuth, LocalAuth} = require('whatsapp-web.js');
+const { Client, LegacySessionAuth, LocalAuth } = require('whatsapp-web.js');
 const http = require('http'); // or 'https' for https:// URLs
 const https = require('https'); // or 'https' for https:// URLs
 const fs = require('fs');
@@ -16,51 +16,46 @@ const saveExternalFile = (url) => new Promise((resolve, reject) => {
     const ext = url.split('.').pop()
     const checkProtocol = url.split('/').includes('https:');
     const handleHttp = checkProtocol ? https : http;
-    const name = `${
-        Date.now()
-    }.${ext}`;
+    const name = `${Date.now()}.${ext}`;
     const file = fs.createWriteStream(`${__dirname}/../mediaSend/${name}`);
     console.log(url)
-    handleHttp.get(url, function (response) {
+     handleHttp.get(url, function(response) {
         response.pipe(file);
-        file.on('finish', function () {
-            file.close();
+        file.on('finish', function() {
+            file.close();  // close() is async, call cb after close completes.
             resolve(name)
         });
-        file.on('error', function () {
+        file.on('error', function() {
             console.log('errro')
-            file.close();
+            file.close();  // close() is async, call cb after close completes.
             resolve(null)
         });
     });
 })
 
 const checkIsUrl = (path) => {
-    try {
+    try{
         regex = /^(http(s)?:\/\/)[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/i;
         match = path.match(regex);
         return match[0]
-    } catch (e) {
+    }catch(e){
         return null
     }
 }
 
 const generateImage = (base64, cb = () => {}) => {
-    let qr_svg = qr.image(base64, {
-        type: 'svg',
-        margin: 4
-    });
+    let qr_svg = qr.image(base64, { type: 'svg', margin: 4 });
     qr_svg.pipe(require('fs').createWriteStream('./mediaSend/qr-code.svg'));
-    console.log(`⚡ Remember that the QR is updated every minute ⚡'`);
-    console.log(`⚡ Update F5 the browser to keep the best QR⚡`);
+    console.log(`⚡ Recuerda que el QR se actualiza cada minuto ⚡'`);
+    console.log(`⚡ Actualiza F5 el navegador para mantener el mejor QR⚡`);
     cb()
 }
 
 const checkEnvFile = () => {
     const pathEnv = `${__dirname}/../.env`;
     const isExist = fs.existsSync(pathEnv);
-    if (! isExist) {
-        console.log(`missing env file`);
+    if(!isExist){
+        console.log(`🆗 ATENCION! 🆗 te falta crear tu archivo .env de lo contrario no funcionara`)
     }
 }
 
@@ -69,40 +64,32 @@ const checkEnvFile = () => {
  * @param {*} session 
  * @param {*} cb 
  */
-const createClient = (session = {}, login = false) => {
-    console.log(`Mode: ${
-        (MULTI_DEVICE === 'false') ? 'No Multi-device' : 'Si Multi-device'
-    } `)
+const createClient =  (session = {}, login = false) => {
+    console.log(`Mode: ${(MULTI_DEVICE === 'false') ? 'No Multi-device' : 'Si Multi-device'} `)
     const objectLegacy = (login) ? {
-        authStrategy: new LegacySessionAuth({session})
-    } : {
-        session
-    };
+        authStrategy: new LegacySessionAuth({
+            session
+        })
+    } : {session};
 
-    if (MULTI_DEVICE == 'false') {
-        return {
-            ... objectLegacy,
-            restartOnAuthFail: true,
-            puppeteer: {
-                args: ['--no-sandbox']
-            }
+    if(MULTI_DEVICE == 'false') {
+       return {...objectLegacy,
+        restartOnAuthFail: true,
+        puppeteer: {
+            args: [
+                '--no-sandbox'
+            ],
         }
-    } else {
+    }
+    }else{
         return {
-            puppeteer: {
-                headless: true,
-                args: ['--no-sandbox']
-            },
-            clientId: 'client-one'
+            puppeteer: { 
+                headless: true, 
+                args: ['--no-sandbox'] 
+            }, 
+            clientId: 'client-one' 
         }
     }
 }
 
-module.exports = {
-    cleanNumber,
-    saveExternalFile,
-    generateImage,
-    checkIsUrl,
-    checkEnvFile,
-    createClient
-}
+module.exports = {cleanNumber, saveExternalFile, generateImage, checkIsUrl, checkEnvFile, createClient}

@@ -1,127 +1,93 @@
 [
     {
-        "keywords": [
-            "Hola",
+        "keywords":  [
             "hola",
-            "HOLA",
-            "Hola.",
-            "hola.",
-            "HOLA.",
-            "Buenos días",
-            "Buenos dias",
-            "Buenos Días",
+            "hola!",
+            "ola",
+            "ole",
+            "inicio",
+            "welcome",
             "buenos días",
-            "buenos Días",
-            "buenos Dias",
-            "BUENOS DIAS",
-            "BUENOS DÍAS",
-            "Buenas tardes",
-            "Buenas tardes",
-            "Buenas Tardes",
             "buenas tardes",
-            "buenas Días",
-            "buenas Tardes",
-            "BUENAS TARDES",
-            "Información",
-            "informacion",
-            "Buenas"
+            "buenas noches",
+            "me dieron este número",
+            "venden a crédito",
+            "quisiera saber si venden",
+            "necesito saber"
         ],
-        "key": ["SALUDO"]
+        "key": "STEP_1"
     },
     {
-        "keywords": [
-            "Ayuda",
-            "ayuda",
-            "Ayuda.",
-            "ayuda.",
-            "ayuds",
-            "Ayuds",
-            "ayuds.",
-            "Ayuds.",
-            "AYUDA"
-        ],
-        "key": ["BIENVENIDA"]
+        "keywords":  [
+            "cursos",
+            "info",
+            "curso"        ],
+        "key": "STEP_2"
     },
     {
-        "keywords": [
-            "A", "a", "a.", "A."
+        "keywords":  [
+            "angular"
         ],
-        "key": "PEDIDO"
+        "key": "STEP_2_1"
     },
     {
-        "keywords": [
-            "B", "B.", "b", "b."
+        "keywords":  [
+            "node"
         ],
-        "key": ["CAMBIOSGUIARETORNO"]
-    }, {
-        "keywords": [
-            "C", "c", "C.", "c."
+        "key": "STEP_2_2"
+    },
+    {
+        "keywords":  [
+            "ngrx"
         ],
-        "key": ["QUIEROVERLOSCATALOGOS"]
-    }, {
-        "keywords": [
-            "4", "4."
+        "key": "STEP_2_3"
+    },
+    {
+        "keywords":  [
+            "aws"
         ],
-        "key": ["CXSPORT"]
-    }, {
-        "keywords": [
-            "5", "5."
+        "key": "STEP_2_4"
+    },
+    {
+        "keywords":  [
+            "asesor",
+            "asesores",
+            "Vendedor",
+            "cobrador"
         ],
-        "key": ["MIANGEL"]
-    }, {
-        "keywords": [
-            "G", "G.", "g", "g."
-        ],
-        "key": ["C3ACATALOGOENVENTA"]
-    }, {
-        "keywords": [
-            "H", "H.", "h", "h."
-        ],
-        "key": ["C3BCATALOGOPREVENTA"]
-    }, {
-        "keywords": [
-            "I", "I.", "i", "i."
-        ],
-        "key": ["C3CPREMIOSACUMULABLES"]
-    }, {
-        "keywords": [
-            "6", "6."
-        ],
-        "key": ["EQUILIBRIO"]
-    }, {
-        "keywords": [
-            "7", "7."
-        ],
-        "key": ["MCJ"]
-    }, {
-        "keywords": [
-            "D", "d", "D.", "d."
-        ],
-        "key": ["INSCRIPCIONGRATIS"]
-    }, {
-        "keywords": [
-            "E", "e", "E.", "e."
-        ],
-        "key": ["PAGOS"]
-    }, {
-        "keywords": [
-            "F", "f", "F.", "f."
-        ],
-        "key": ["VERCOMPRAROFERTAS"]
-    }, {
-        "keywords": [
-            "Gracias",
+        "key": "STEP_3"
+    },
+    {
+        "keywords":  [
+            "muchas gracias",
+            "ok",
             "gracias",
-            "GRACIAS",
-            "Gracias.",
-            "gracias.",
-            "GRACIAS.",
-            "Chao",
-            "chao",
-            "Adios",
-            "Hasta luego",
-            "Hasta Luego"
+            "vale gracias"
         ],
-        "key": ["DESPEDIDA"]
+        "key": "STEP_4"
+    },
+    {
+        "keywords":  [
+            "youtube"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "VER_CURSOS"
+        ],
+        "key": "STEP_6"
+    },
+    {
+        "keywords":  [
+            "telegram"
+        ],
+        "key": "STEP_7"
+    },
+    {
+        "keywords":  [
+            "audio"
+        ],
+        "key": "STEP_8"
     }
 ]
