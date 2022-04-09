@@ -4,7 +4,6 @@ const express = require("express");
 const cors = require("cors");
 const qrcode = require("qrcode-terminal");
 const { Client, LegacySessionAuth, LocalAuth } = require("whatsapp-web.js");
-const mysqlConnection = require("./config/mysql");
 const { middlewareClient } = require("./middleware/client");
 const {
   generateImage,
