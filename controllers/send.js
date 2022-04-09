@@ -3,7 +3,7 @@ const moment = require('moment');
 const fs = require('fs');
 const {MessageMedia, Buttons} = require('whatsapp-web.js');
 const {cleanNumber} = require('./handle')
-const DELAY_TIME = 170;
+const DELAY_TIME = 170; // ms
 const DIR_MEDIA = `${__dirname}/../mediaSend`;
 const {saveMessage} = require('../adapter/app')
 /**

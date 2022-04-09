@@ -1,7 +1,7 @@
-const express = require("express");
-const router = express.Router();
-const { getQr } = require("../controllers/web");
+const express = require('express');
+const router = express.Router()
+const { getQr } = require('../controllers/web')
 
-router.use("/", getQr);
+router.use('/', getQr)
 
-module.exports = router;
+module.exports = router

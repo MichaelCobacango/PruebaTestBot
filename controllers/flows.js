@@ -1,4 +1,4 @@
-const {get, reply} = require('../adapter/app')
+const {get, reply, getIA} = require('../adapter/app')
 const {saveExternalFile, checkIsUrl} = require('./handle')
 
 const getMessages = async (message) => {
@@ -15,4 +15,14 @@ const responseMessages = async (step) => {
     return data
 }
 
-module.exports = { getMessages, responseMessages }
+const bothResponse = async (message) => {
+    const data = await getIA(message)
+    if(data && data.media){
+        const file = await saveExternalFile(data.media)
+        return {...data,...{media:file}}
+    }
+    return data
+}
+
+
+module.exports = { getMessages, responseMessages, bothResponse }
