@@ -1,57 +1,49 @@
+require("dotenv").config();
+const fs = require("fs");
 const express = require("express");
+const cors = require("cors");
+const qrcode = require("qrcode-terminal");
+const { Client, LegacySessionAuth, LocalAuth } = require("whatsapp-web.js");
+const mysqlConnection = require("./config/mysql");
+const { middlewareClient } = require("./middleware/client");
+const {
+  generateImage,
+  cleanNumber,
+  checkEnvFile,
+  createClient,
+} = require("./controllers/handle");
+const { connectionReady, connectionLost } = require("./controllers/connection");
+const { saveMedia } = require("./controllers/save");
+const {
+  getMessages,
+  responseMessages,
+  bothResponse,
+} = require("./controllers/flows");
+const {
+  sendMedia,
+  sendMedia1,
+  sendMedia2,
+  sendMedia3,
+  sendMedia4,
+  sendMedia5,
+  sendMessage,
+  lastTrigger,
+  sendMessageButton,
+  readChat,
+} = require("./controllers/send");
 const app = express();
-const port = process.env.PORT || 3000;
-app.listen(port);
+app.use(cors());
+app.use(express.json());
+const MULTI_DEVICE = process.env.MULTI_DEVICE || "false";
+const server = require("http").Server(app);
+const io = require("socket.io")(server, {
+  cors: {
+    origins: ["http://localhost:4200"],
+  },
+});
 app.get("/",(req,res)=>{
   res.send("Hello World");
 })
-console.log(`App listen in the port ${port}`);
-
-
-
-// require("dotenv").config();
-// const fs = require("fs");
-// const express = require("express");
-// const cors = require("cors");
-// const qrcode = require("qrcode-terminal");
-// const { Client, LegacySessionAuth, LocalAuth } = require("whatsapp-web.js");
-// const mysqlConnection = require("./config/mysql");
-// const { middlewareClient } = require("./middleware/client");
-// const {
-//   generateImage,
-//   cleanNumber,
-//   checkEnvFile,
-//   createClient,
-// } = require("./controllers/handle");
-// const { connectionReady, connectionLost } = require("./controllers/connection");
-// const { saveMedia } = require("./controllers/save");
-// const {
-//   getMessages,
-//   responseMessages,
-//   bothResponse,
-// } = require("./controllers/flows");
-// const {
-//   sendMedia,
-//   sendMedia1,
-//   sendMedia2,
-//   sendMedia3,
-//   sendMedia4,
-//   sendMedia5,
-//   sendMessage,
-//   lastTrigger,
-//   sendMessageButton,
-//   readChat,
-// } = require("./controllers/send");
-// const app = express();
-// app.use(cors());
-// app.use(express.json());
-// const MULTI_DEVICE = process.env.MULTI_DEVICE || "false";
-// const server = require("http").Server(app);
-// const io = require("socket.io")(server, {
-//   cors: {
-//     origins: ["http://localhost:4200"],
-//   },
-// });
 
 // let socketEvents = {
 //   sendQR: () => {},
